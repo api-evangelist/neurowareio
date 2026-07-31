@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/Neuroware-IO
+packages:
+  - language: javascript
+    registry: github
+    name: cortex-sdk
+    url: https://github.com/Neuroware-IO/cortex-sdk
+    install: git clone https://github.com/Neuroware-IO/cortex-sdk
+    description: >-
+      Browser JavaScript SDK for communicating with the Cortex / Credence Hot
+      Wallet API. Provides encrypted-workload wallet interactions (registration,
+      deposit, holding, custody, sweeping, rebalance, withdraw) and auto-wires
+      HTML form handlers. Not published to a public package registry; distributed
+      via the GitHub org (last updated 2021).
+    official: true

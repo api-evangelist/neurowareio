@@ -1,7 +1,30 @@
 aid: neurowareio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neurowareio.png
 name: Neuroware.io
-description: Neuroware.io is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Neuroware is a Malaysia-based blockchain infrastructure provider that has been
+  building distributed-ledger applications since 2010, working with government
+  agencies and regulated fintech operators. Its flagship Cortex platform offers a
+  unified interface for managing multiple blockchains and protocols, powered by
+  private, use-case-customized APIs delivering identity, authentication and role
+  management, distributed data and document storage, custom token generation and
+  analytics, and cryptographic keyless e-wallets. Related products include COKEEPS
+  (regulated digital-asset custody), OVIATO (PassKey-native self-custody wallet
+  infrastructure), and R1 (training and consultancy). Neuroware also created the
+  earlier Blockstrap blockchain application stack and API. No current public,
+  documented API or OpenAPI surface is published; APIs are delivered privately per
+  engagement.
 url: https://raw.githubusercontent.com/api-evangelist/neurowareio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Blockchain
+- Distributed Ledger
+- Cryptocurrency
+- Digital Asset Custody
+- Wallet Infrastructure
+- Fintech
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://neuroware.io
+- type: Blog
+  url: https://neuroware.io/news/
+- type: GitHubOrganization
+  url: https://github.com/Neuroware-IO
+- type: Packages
+  url: packages/neurowareio-packages.yml
+- type: SDKs
+  url: packages/neurowareio-packages.yml
+- type: DomainSecurity
+  url: security/neurowareio-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
